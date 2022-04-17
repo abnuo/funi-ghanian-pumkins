@@ -1,1 +1,2 @@
+numpy
 git+https://github.com/abnuo/pybrain.git
