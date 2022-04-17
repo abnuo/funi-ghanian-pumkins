@@ -12,9 +12,6 @@ from pybrain.tools.shortcuts import buildNetwork
 from pybrain.tools.customxml.networkwriter import NetworkWriter
 from pybrain.tools.customxml.networkreader import NetworkReader
 
-def chance(l,v):
-  return float("0."+str(l.count(v)%100))
-
 def buildCharDataset(text):
   return list(map(ord,text))
 
