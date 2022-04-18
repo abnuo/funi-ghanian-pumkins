@@ -23,7 +23,7 @@ def buildWordDataset(text):
 def buildImageDataset(images):
   ds = SupervisedDataSet(len(images[0]),len(images[0]))
   for i in images:
-    ds.addSample(i,i[1:]+[i[0]])
+    ds.addSample(i,i[3:]+i[:3])
   return ds
 
 class RNN:
