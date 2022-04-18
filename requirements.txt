@@ -1,2 +1,3 @@
 numpy
+nltk
 git+https://github.com/abnuo/pybrain.git
